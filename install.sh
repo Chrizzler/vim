@@ -15,10 +15,13 @@ cd ~/.vim/bundle && git clone https://github.com/ervandew/supertab.git
 cd ~/.vim/bundle && git clone https://github.com/gregsexton/MatchTag.git
 cd ~/.vim/bundle && git clone git://github.com/tpope/vim-fugitive.git && vim -u NONE -c "helptags vim-fugitive/doc" -c q
 cd ~/.vim/bundle && git clone https://github.com/scrooloose/syntastic.git
+cd ~/.vim/bundle && git clone https://github.com/bling/vim-airline
 cd ~/.vim/bundle && git clone https://github.com/tomtom/tlib_vim.git
 cd ~/.vim/bundle && git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
 cd ~/.vim/bundle && git clone https://github.com/garbas/vim-snipmate.git
 cd ~/.vim/bundle && git clone https://github.com/honza/vim-snippets.git
+cd ~/.vim/bundle && git clone https://github.com/elzr/vim-json.git
+cd ~/.vim/bundle && git clone https://github.com/sjl/gundo.vim
 cd ~/.vim/bundle && git clone https://github.com/leafgarland/typescript-vim.git
 cd ~/.vim/bundle && git clone https://github.com/HerringtonDarkholme/yats.vim.git
 cd ~/.vim/bundle && git clone https://github.com/Quramy/tsuquyomi.git
