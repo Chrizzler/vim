@@ -28,5 +28,7 @@ cd ~/.vim/bundle && git clone https://github.com/Quramy/tsuquyomi.git
 cd ~/.vim/bundle && git clone https://github.com/Shougo/vimproc.vim.git 
 cd ~/.vim/bundle && git clone https://github.com/ngmy/vim-rubocop.git 
 cd ~/.vim/bundle && git clone https://github.com/Chiel92/vim-autoformat.git
+cd ~/.vim/bundle && git clone https://github.com/alvan/vim-closetag.git
+cd ~/.vim/bundle && git clone https://github.com/jiangmiao/auto-pairs.git
 cd ~/.vim/bundle/vimproc.vim && make
 
