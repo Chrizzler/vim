@@ -5,6 +5,7 @@ cp vimrc ~/.vimrc
 cp jsbeautifyrc ~/.jsbeautifyrc
 
 cd ~/.vim/bundle && git clone git://github.com/altercation/vim-colors-solarized.git
+# cd ~/.vim/bundle && git clone https://github.com/sickill/vim-monokai.git
 cd ~/.vim/bundle && git clone https://github.com/scrooloose/nerdtree.git
 cd ~/.vim/bundle && git clone git://github.com/tpope/vim-rails.git && git clone git://github.com/tpope/vim-bundler.git
 cd ~/.vim/bundle && git clone https://github.com/kien/ctrlp.vim.git

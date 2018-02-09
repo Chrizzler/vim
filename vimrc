@@ -16,7 +16,7 @@ set showcmd                    "show incomplete cmds down the bottom
 set showmode                   "show current mode down the bottom
 set backspace=indent,eol,start "allow backspacing over everything in insert mode
 
-syntax on
+syntax enable
 set colorcolumn=80
 set tabstop=2
 set number
@@ -29,9 +29,12 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set autoindent
-set t_Co=256
-colorscheme solarized
+set t_Co=16
+" colorscheme monokai
+let g:solarized_termcolors=16
+let g:solarized_termtrans
 set background=dark
+colorscheme solarized
 
 set statusline+=%#warningmsg#
 set statusline+=%*
