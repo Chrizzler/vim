@@ -35,6 +35,7 @@ let g:solarized_termcolors=16
 let g:solarized_termtrans
 set background=dark
 colorscheme solarized
+highlight ColorColumn ctermbg=Darkgrey
 
 set statusline+=%#warningmsg#
 set statusline+=%*
