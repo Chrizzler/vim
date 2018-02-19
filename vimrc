@@ -32,7 +32,7 @@ set autoindent
 set t_Co=16
 " colorscheme monokai
 let g:solarized_termcolors=16
-let g:solarized_termtrans
+let g:solarized_termtrans=1
 set background=dark
 colorscheme solarized
 highlight ColorColumn ctermbg=Darkgrey
