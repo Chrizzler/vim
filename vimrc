@@ -29,9 +29,9 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set autoindent
-set t_Co=16
+" set t_Co=16
 " colorscheme monokai
-let g:solarized_termcolors=16
+let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 set background=dark
 colorscheme solarized
