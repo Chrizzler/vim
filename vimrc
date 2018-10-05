@@ -77,3 +77,15 @@ command! -nargs=1 -complete=customlist,ListTemplateFiles Template call Template(
 command Log :! tail -f $(rails runner 'puts Rails.root')/log/development.log
 command! Psql :! psql
 
+"Rspec anstelle von Minitest
+let g:rails_projections = {
+      \  'app/*.rb': {
+      \     'alternate': 'spec/{}_spec.rb',
+      \     'type': 'source'
+      \   },
+      \  'spec/*_spec.rb': {
+      \     'alternate': 'app/{}.rb',
+      \     'type': 'test'
+      \   }
+      \}
+
