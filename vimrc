@@ -1,12 +1,48 @@
+" Specify a directory for plugins
+" - For Neovim: ~/.local/share/nvim/plugged
+" - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.vim/plugged')
+Plug 'micha/vim-colors-solarized'
+" On-demand loading
+Plug 'scrooloose/nerdtree' 
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-commentary'
+Plug 'vim-ruby/vim-ruby'
+Plug 'ervandew/supertab'
+Plug 'gregsexton/MatchTag'
+Plug 'tpope/vim-fugitive'
+Plug 'tomtom/tlib_vim'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'garbas/vim-snipmate'
+Plug 'elzr/vim-json'
+Plug 'sjl/gundo.vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'Quramy/tsuquyomi'
+Plug 'shougo/vimproc.vim', { 'do': 'make' }
+Plug 'ngmy/vim-rubocop'
+Plug 'chiel92/vim-autoformat'
+Plug 'alvan/vim-closetag'
+Plug 'chun-yang/auto-pairs'
+" Plug 'tpope/vim-fireplace'
+Plug 'scrooloose/syntastic'
+Plug 'airblade/vim-gitgutter'
+Plug 'kien/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'majutsushi/tagbar'
+Plug 'scrooloose/nerdcommenter'
+Plug 'thoughtbot/vim-rspec'
+
+call plug#end()
+
 "Use Vim settings, rather then Vi settings (much better!).
 "This must be first, because it changes other options as a side effect.
 set nocompatible
 scriptencoding utf-8
 set fileencoding=utf-8
 set encoding=utf-8
-
-call pathogen#infect()
-
 set history=1000
 
 filetype plugin on
@@ -88,4 +124,3 @@ let g:rails_projections = {
       \     'type': 'test'
       \   }
       \}
-
