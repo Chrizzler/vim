@@ -2,39 +2,56 @@
 " - For Neovim: ~/.local/share/nvim/plugged
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
-Plug 'micha/vim-colors-solarized'
-" On-demand loading
-Plug 'scrooloose/nerdtree' 
-Plug 'tpope/vim-rails'
-Plug 'tpope/vim-bundler'
-Plug 'tpope/vim-endwise'
-Plug 'tpope/vim-commentary'
-Plug 'vim-ruby/vim-ruby'
-Plug 'ervandew/supertab'
-Plug 'gregsexton/MatchTag'
-Plug 'tpope/vim-fugitive'
-Plug 'tomtom/tlib_vim'
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'garbas/vim-snipmate'
-Plug 'elzr/vim-json'
-Plug 'sjl/gundo.vim'
-Plug 'leafgarland/typescript-vim'
-Plug 'HerringtonDarkholme/yats.vim'
-Plug 'Quramy/tsuquyomi'
-Plug 'shougo/vimproc.vim', { 'do': 'make' }
-Plug 'ngmy/vim-rubocop'
-Plug 'chiel92/vim-autoformat'
-Plug 'alvan/vim-closetag'
-Plug 'chun-yang/auto-pairs'
-" Plug 'tpope/vim-fireplace'
-Plug 'scrooloose/syntastic'
-Plug 'airblade/vim-gitgutter'
-Plug 'kien/ctrlp.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'majutsushi/tagbar'
-Plug 'scrooloose/nerdcommenter'
-Plug 'thoughtbot/vim-rspec'
+  " best color theme
+  Plug 'micha/vim-colors-solarized'
+  " On-demand loading
+  " cool sidebar, if startet without file as argument
+  Plug 'scrooloose/nerdtree' 
+  Plug 'tpope/vim-rails'
+  Plug 'tpope/vim-bundler'
+  Plug 'tpope/vim-endwise'
+  Plug 'tpope/vim-commentary'
+  " cool reapting with .
+  Plug 'sjl/gundo.vim'
+  " ruby config files
+  Plug 'vim-ruby/vim-ruby'
+  " mach html tags
+  Plug 'gregsexton/MatchTag'
+  " git wrapper
+  Plug 'tpope/vim-fugitive'
+  " Plug 'tomtom/tlib_vim'
+  " some cool addons
+  Plug 'MarcWeber/vim-addon-mw-utils'
+  " tab snippets 
+  " Plug 'garbas/vim-snipmate'
+  Plug 'honza/vim-snippets'
+  " cooler json makeup
+  Plug 'elzr/vim-json'
+  " visual undo tree
+  Plug 'sjl/gundo.vim'
+  " typescript hightlighting
+  Plug 'leafgarland/typescript-vim'
+  Plug 'HerringtonDarkholme/yats.vim'
+  " Plug 'Quramy/tsuquyomi'
 
+  Plug 'shougo/vimproc.vim', { 'do': 'make' }
+  Plug 'ngmy/vim-rubocop'
+  Plug 'chiel92/vim-autoformat'
+  Plug 'alvan/vim-closetag'
+  Plug 'chun-yang/auto-pairs'
+  " Plug 'tpope/vim-fireplace'
+  Plug 'scrooloose/syntastic'
+  " highlight chages with git diff
+  Plug 'airblade/vim-gitgutter'
+  " search with ctrlp
+  Plug 'kien/ctrlp.vim'
+  " cool info bar
+  Plug 'vim-airline/vim-airline'
+  Plug 'scrooloose/nerdcommenter'
+  Plug 'thoughtbot/vim-rspec'
+
+  " Auto completer
+  Plug 'ervandew/supertab'
 call plug#end()
 
 "Use Vim settings, rather then Vi settings (much better!).
