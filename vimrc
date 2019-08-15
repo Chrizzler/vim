@@ -22,6 +22,10 @@ call plug#begin('~/.vim/plugged')
   " Plug 'tomtom/tlib_vim'
   " some cool addons
   Plug 'MarcWeber/vim-addon-mw-utils'
+
+  " for typescript cool things
+  Plug 'quramy/tsuquyomi'
+
   " tab snippets 
   " Plug 'garbas/vim-snipmate'
   Plug 'honza/vim-snippets'
@@ -52,6 +56,7 @@ call plug#begin('~/.vim/plugged')
 
   " Auto completer
   Plug 'ervandew/supertab'
+  " Plug 'shougo/neocomplete.vim'
 call plug#end()
 
 "Use Vim settings, rather then Vi settings (much better!).
@@ -141,3 +146,4 @@ let g:rails_projections = {
       \     'type': 'test'
       \   }
       \}
+let g:tsuquyomi_use_local_typescript = 0
